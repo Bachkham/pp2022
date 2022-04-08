@@ -52,11 +52,11 @@ def list_of_students():
         print(students[i])
 
 def output_mark():
-    v = int(input("Enter course id you want to show: "))
-    if v in courses_id:
+    b = int(input("Enter course id you want to show: "))
+    if b in courses_id:
         for items in marks:
             for nested_item in items:
-                if nested_item == v:
+                if nested_item == b:
                     print(items)
 
 student_info()
